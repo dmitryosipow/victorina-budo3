@@ -153,13 +153,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionImage: {fileID: 966523012}
-  button1: {fileID: 336356755}
-  button2: {fileID: 1106916340}
-  button3: {fileID: 1157542287}
-  button4: {fileID: 614521118}
-  heart1: {fileID: 856819300}
-  heart2: {fileID: 393043411}
-  heart3: {fileID: 1785894205}
+  buttonObjects:
+  - {fileID: 336356753}
+  - {fileID: 1106916338}
+  - {fileID: 1157542285}
+  - {fileID: 614521116}
+  livesObjects:
+  - {fileID: 856819298}
+  - {fileID: 393043409}
+  - {fileID: 1785894203}
+  buttonTexts:
+  - {fileID: 1667177904}
+  - {fileID: 833604600}
+  - {fileID: 840955310}
+  - {fileID: 1487426548}
   questionText: {fileID: 1735673447}
   questions:
   - {fileID: 11400000, guid: 631ddd90631563e4d863873c40e1bedf, type: 2}
@@ -1162,9 +1169,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 6ab03b9d03336f64a82f4c20ca4f4735, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
