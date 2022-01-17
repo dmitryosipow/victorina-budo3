@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6461b4d4a3d9e0439cb0db138b9fa79, type: 3}
+  m_Name: Question4
+  m_EditorClassIdentifier: 
+  answer1: Charles Perrault
+  answer2: Jacob Grimm
+  answer3: William Shakespeare
+  answer4: Leo Tolstoy
+  question: How is the author of Cat in boots?
+  image: {fileID: 21300000, guid: 71432d7005ac8ce4db0a0f0c8bc4f145, type: 3}
+  correctAnswer: 1
